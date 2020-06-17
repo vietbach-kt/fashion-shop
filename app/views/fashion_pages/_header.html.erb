@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+            <div class="content-header">
+                <ul class="nav navbar-nav justify-content-center">
+                    <li class="nav-item">
+                        <%= link_to  clothing_path, class: "nav-link" do %>
+                            <i class='fas fa-tshirt' style='font-size:15px; color: white'></i> CLOTHING
+                        <% end %>
+                    </li>
+                    <li class="nav-item">
+                        <%= link_to  "SHOES", shoes_path, class: "nav-link" %>
+                    </li>
+                    <li class="nav-item">
+                        <%= link_to  "ACCESSORIES", accessories_path, class: "nav-link" %>
+                    </li>
+                    <li class="nav-item">
+                        <%= link_to  "SPORT", sport_path, class: "nav-link" %>   
+                    </li>
+                    <li class="nav-item">
+                        <%= link_to  "SNEAKERHUB",sneakerhub_path, class: "nav-link" %>   
+                    </li>
+                    <li class="nav-item sale">
+                        <%= link_to  "SALE", sale_path, class: "nav-link" %>   
+                    </li>
+                </ul>
+            </div>
+    </nav>
+</div>
