@@ -36,8 +36,18 @@ body{
     color: black;
 }
 .awesome{
+    text-shadow: 2px 2px;
     color: black;
     font-family: 'Metal Mania', cursive;
+}
+.looking{
+    margin-left: 35%;
+    position: absolute
+}
+.form-control{
+    border: 0px !important;
+    background-color: rgba(227, 238, 249, 0.25) !important;
+    height: 33px !important;
 }
 /*// clothing*/
 .carousel-item .responsive{
