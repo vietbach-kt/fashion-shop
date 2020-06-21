@@ -12,4 +12,5 @@ Rails.application.routes.draw do
   get "sale"          =>  "fashion_pages#sale"
   root "fashion_pages#clothing"
   resources :users
+  resources :fashion_pages
 end

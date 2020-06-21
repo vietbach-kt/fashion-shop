@@ -10,7 +10,7 @@
                 <div class="content">
                     <h2>Get up to 30% Off</h2>
                     <h2>New Arrival</h2>
-                    <%= button_to  sport_path ,class: "btn btn-light" do %>
+                    <%= button_to  sale_path ,class: "btn btn-light" do %>
                         Shopping Cart <i class="fa fa-shopping-cart"></i>
                     <% end %>
                 </div>
@@ -59,6 +59,12 @@
                 <div class="product-one">
                     <%= image_tag("t-shirt.webp", :alt => "rss feed",width: '100%', class:'responsive') %>
                 </div>
+                <div class="text-block">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                </div>
             </div>
         </div>
 
@@ -66,6 +72,13 @@
             <div class="product">
                 <div class="product_two">
                     <%= image_tag("t-shirt(1).webp", :alt => "rss feed",width: '100%', class:'responsive') %>
+                </div>
+                <div class="middlex">
+                    <div class="text">
+                        <% button_to "#", class: "btn btn-outline-dark" do%>
+                            <i class='fas fa-cart-plus' style='font-size:36px'></i> Quick buy
+                        <%end%>
+                    </div>
                 </div>
             </div>
         </div>

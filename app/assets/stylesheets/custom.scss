@@ -29,6 +29,12 @@ body{
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0) !important;
 }
+.icon{
+    color: black;
+}
+.icon:hover{
+    color: gray;
+}
 #first-page{
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -39,10 +45,6 @@ body{
     text-shadow: 2px 2px;
     color: black;
     font-family: 'Metal Mania', cursive;
-}
-.looking{
-    margin-left: 35%;
-    position: absolute
 }
 .form-control{
     border: 0px !important;
@@ -55,6 +57,29 @@ body{
     height: auto;
     vertical-align: middle;
 }
+.product-three .responsive{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.product:hover image {
+  opacity: 0.3;
+}
+
+.product:hover .middle {
+  opacity: 1;
+}
+
 .responsive-1{
     height: 935px;
 }

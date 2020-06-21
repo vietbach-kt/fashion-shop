@@ -1,19 +1,32 @@
 <div class="place-logo">
-	<nav class="navbar navbar-expand-lg justify-content-center">
-		<%= link_to clothing_path, class:"navbar-brand " do%>
-			<h2 class="awesome">AWESOME</h2>
-		<% end %>
-		<div class="range">
-			<i class="fa fa-heart" style="font-size:24px"></i>
-			<i class="fa fa-shopping-cart" style="font-size:24px"></i>
+	<div class="row">
+		<div class=" col-md-7 col-sm-7">
+			<nav class="navbar navbar-expand-lg justify-content-end">
+				<%= link_to clothing_path, class:"navbar-brand" do%>
+					<h2 class="awesome">AWESOME</h2>
+				<% end %>
+			</nav>
 		</div>
-		<div class="looking">
-			<form class="form-inline my-2 my-lg-0" >
-			    <div class="input-group" style="position: fixed;">
-			      <input type="text" class="form-control" placeholder="What are you looking for?">
-			      <button type="button" class="btn btn-outline-dark">Search</button>
-			    </div>
-	  		</form>
-	  	</div>
-	</nav> 
+		<div class=" col-md-4 col-sm-4	">
+			<nav class="navbar navbar-expand-lg justify-content-end">
+				<div class="sosial">
+					<%= link_to "#" ,class:"icon" do%>
+						<i class='fas fa-user-alt' style='font-size:24px'></i>
+					<% end %>
+					<%= link_to "#" ,class:"icon" do%>
+						<i class="fa fa-heart" style="font-size:24px"></i>
+					<% end %>
+					<%= link_to "#" ,class:"icon" do%>
+						<i class="fa fa-shopping-cart" style="font-size:24px"></i>
+					<% end %>
+				</div>
+				<form class="form-inline my-2 my-lg-0" >
+				    <div class="input-group" style="position: fixed;">
+				      <input type="text" class="form-control" placeholder="What are you looking for?">
+				      <button type="button" class="btn btn-outline-dark">Search</button>
+				    </div>
+		  		</form>
+			</nav>
+		</div>
+	</div>
 </div>
